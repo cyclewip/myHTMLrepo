@@ -1,22 +1,87 @@
 <!DOCTYPE html>
-<html lang = "en.US">
-<body>
+<html lang="en.US">
+<title>My first html</title>
+<meta charset="UTF-8">
 <head>
-    <title>My first html</title>
-    <meta charset="UTF-8">
+    <style>
+
+
+
+div.container {
+    width: 100%;
+    border: 1px solid greenyellow;
+}
+
+header, footer{
+    padding: 1em;
+    color:white;
+    background-color: black;
+    clear:left;
+    text-align: center;
+}
+        nav{
+            float: left;
+            max-width: 160px;
+            margin: 0;
+            padding: 1em;
+        }
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+        nav ul a{
+            text-decoration: none;
+        }
+        img{
+            position: relative;
+
+            bottom: 50px;
+            float:right;
+            clear:left;
+        }
+article{
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+
+    </style>
 </head>
 
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+<body>
+                <!--<a href="C:\htmlTest\src\london.jpg">This is a link</a>-->
 
-<p title="I am a 'very big' tooltip">
-    This is a paragraph
-</p>
 
-<a href="https://www.w3schools.com">This is a link</a>
-<p><img src="C:\htmlTest\src\minbild.jpg" alt="a hobbit" width="104" height="142"></p>
+                <header>
+                    <h1> City Gallery</h1>
+                </header>
+                <nav>
+                    <ul>
+                        <li><a href="C:\htmlTest\src\london.jpg">London
+                        
 
+                        </a>
+                        </li>
+                        <li><a href="C:\htmlTest\src\paris.jpg">Paris</a>
+                        </li>
+                        <li><a href="C:\htmlTest\src\tokyo.jpg">Tokyo</a>
+                        </li>
+                    </ul>
+                   </nav>
+                <article>
+                    <h1>London</h1>
+                    <a href=default.asp"> <p><img src="C:\htmlTest\src\london.jpg" alt="a hobbit" width="300" height="200"></p></a>
+                    <p1>Standing on the River Thames in the south east of the island of Great Britain,
+                        London has been a major settlement for two millennia. It was founded by the Romans,
+                        who named it Londinium. London's ancient core, the City of London, largely retains its
+                        1.12-square-mile (2.9 km2) medieval boundaries. Since at least the 19th century, "
+                        London" has also referred to the metropolis around this core, historically split between Middlesex,
+                        Essex, Surrey, Kent, and Hertfordshire, which today largely makes up Greater London,</p1>
+                </article>
+
+<footer>Copyright &copy; Martin Sandelin</footer>
 
 </body>
 </html>
